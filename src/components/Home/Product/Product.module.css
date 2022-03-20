@@ -1,0 +1,17 @@
+/* Card */
+.card{
+    transition: all 0.5s ease;
+    width: 18rem;
+  }
+.card:hover {
+    transform: scale(1.01);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  }
+
+/* Product */
+.product img {
+    transition: all 0.5s ease;
+  }
+  .product img:hover{
+    transform: scale(1.1);
+  }
